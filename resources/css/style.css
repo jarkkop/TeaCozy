@@ -1,9 +1,34 @@
 header {
     display: flex;
-    font-family: Verdana;
-    font-size: 14px;
-    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
     justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+.navig {
+      display: inline-flex;
+      align-items: center;
+}
+.navig span {
+ color: seashell;
+}
+
+.header_image img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+
 }
 
 div {
