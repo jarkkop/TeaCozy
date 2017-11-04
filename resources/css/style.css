@@ -10,13 +10,13 @@ header {
     border-bottom: 1px solid seashell;
 }
 .navig {
-      display: inline-flex;
+      display: flex;
       align-items: center;
 }
-.navig span {
- color: seashell;
-}
 
+.navig a {
+  color: seashell;
+}
 .header_image img {
   height: 50px;
   margin-left: 10px;
@@ -33,4 +33,9 @@ body {
 
 div {
     display: block;
+}
+
+.mission {
+  background-image: url("./resources/images/img-mission-background.jpeg");
+  height: 700px;
 }
