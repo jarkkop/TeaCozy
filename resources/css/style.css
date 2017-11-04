@@ -8,12 +8,16 @@ header {
     justify-content: space-between;
     height: 69px;
     border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    margin-top: 10px;
 }
 .navig {
       display: flex;
       align-items: center;
+      margin-right: 20px;
 }
-
 .navig a {
   color: seashell;
 }
@@ -21,14 +25,12 @@ header {
   height: 50px;
   margin-left: 10px;
 }
-
 body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
-
 }
 
 div {
@@ -36,6 +38,41 @@ div {
 }
 
 .mission {
-  background-image: url("./resources/images/img-mission-background.jpeg");
+  position: relative;
+  top: 69px;
+  display: block;
   height: 700px;
+  width: 100%;
+
+}
+.mission img {
+display: flex;
+justify-content: center;
+}
+
+.mission .statement h2 {
+justify-content: center;
+/*  background-image: url("../../resources/images/img-mission-background.jpg");*/
+
+}
+.statement{
+  display: block;
+}
+
+.feature{
+  display: flex;
+}
+
+
+.centered {
+/*    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    background-color: black;
+}
+
+.centered h4{
+  display: block;
+  justify-content: center;
 }
