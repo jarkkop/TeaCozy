@@ -11,6 +11,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 5;
+
 }
 .navig {
       display: flex;
@@ -81,9 +82,43 @@ justify-content: center;
 
 .feature{
   display: flex;
+  width: 1000px;
+  flex-direction:column;
+  margin: auto;
+}
+.feature  h2 {
+  display: flex;
+  justify-content: center;
 }
 
+.feature  h4 {
+  display: flex;
+  justify-content: center;
+}
 
+.feature img{
+  width: 300px;
+  height: 200px;
+}
+
+.feature p{
+  display: inline-flex;
+  width: 300px;
+  margin-top: 10px;
+justify-content: center;
+}
+
+.listofoffers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.offer{
+    display: flex;
+    flex-direction:column;
+    margin: 0px 15px 0px 15px;
+}
 .centered {
 /*    position: absolute;
     top: 50%;
