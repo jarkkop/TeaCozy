@@ -11,7 +11,6 @@ header {
     position: fixed;
     width: 100%;
     z-index: 5;
-    margin-top: 10px;
 }
 .navig {
       display: flex;
@@ -33,6 +32,11 @@ body {
     opacity: 0.9;
 }
 
+.conteiner {
+  display: flex;
+  flex-direction:column;
+}
+
 div {
     display: block;
 }
@@ -41,22 +45,38 @@ div {
   position: relative;
   top: 69px;
   display: block;
-  height: 700px;
-  width: 100%;
 
 }
+/*
+.mission .pic {
+  display:flex;
+  justify-content: center;
+}
+*/
 .mission img {
-display: flex;
-justify-content: center;
+display:block;
+margin: auto;
+height: 700px;
+width: 1200px;
 }
 
 .mission .statement h2 {
+  display: flex;
 justify-content: center;
 /*  background-image: url("../../resources/images/img-mission-background.jpg");*/
-
 }
+
+.mission .statement h4 {
+  display: flex;
+justify-content: center;
+/*  background-image: url("../../resources/images/img-mission-background.jpg");*/
+}
+
 .statement{
+  position: relative;
   display: block;
+  top: -450px;
+  background-color: black;
 }
 
 .feature{
