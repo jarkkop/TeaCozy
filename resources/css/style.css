@@ -131,3 +131,55 @@ justify-content: center;
   display: block;
   justify-content: center;
 }
+
+.locations{
+  display: flex;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+}
+
+
+.locationsframe{
+  position: relative;
+  top: -375px;
+}
+
+.locheader{
+  display: flex;
+  justify-content: center;
+  margin: 0px auto 0 auto;
+}
+.shoplist{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.shop {
+display:inline-block;
+width: 300px;
+justify-content: center;
+background-color: black;
+margin: 15px 20px 20px 20px;
+
+}
+
+.shop .cafename {
+  display: flex;
+  justify-content: center;
+
+}
+
+.shop .addr {
+  display: flex;
+  justify-content: center;
+}.shop .floor {
+  display: flex;
+  justify-content: center;
+}.shop .state {
+  display: flex;
+  justify-content: center;
+}
