@@ -183,3 +183,23 @@ margin: 15px 20px 20px 20px;
   display: flex;
   justify-content: center;
 }
+
+footer.info{
+  display: flex;
+  flex-direction:column;
+  height: 200px;
+}
+footer h2{
+  display: flex;
+  justify-content: center;
+}
+footer h5{
+  display: flex;
+  justify-content: center;
+}
+
+footer.copyright{
+  display: flex;
+  margin-left: 20px;
+  justify-content: flex-start;
+}
